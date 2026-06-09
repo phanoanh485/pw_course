@@ -1,0 +1,4 @@
+git init: dùng để khởi tạo repo, chuyển các file đang ở local (đang trong máy tính của mình) chuyển sang vòng "working directory" của git
+git add <file_name>:  dùng để add 1 file từ vùng "working directory" sang vùng "staging area"
+git add . : add tất cả các file mới hoặc có sự thay đổi từ vùng "working directory" lên vùng "staging area"
+git commit -m "message" : dùng để chuyển các file từ vùng staging lên vùng repository để tạo ra các phiên bản code

@@ -1,0 +1,11 @@
+local: file2, file3
+working directory: file1
+staging area: 
+repository: file1
+
+a. các file sẽ nằm năm ở local
+b. Khởi tạo repo
+c. Báo không có file nào được commit (do chưa add các file lên vùng staging)
+d. file1 được add từ vùng Working directory lên staging
+e. flie1 được chuyển từ staging lên repository tạo ra phiên bản "add file1"
+f. Báo không có file nào được commit (do sau khi file 1 được commit lên thì vùng staging đã trống)
