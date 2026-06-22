@@ -1,0 +1,33 @@
+a. Các file trong folder demo sẽ được quản lý bởi git
+b.
+- Working Direction:
+file1.txt
+file2.txt
+opps
+  file3.txt
+- Staging: 
+- Repository:
+c. thêm file .gitignore
+   - Working Direction:
+      .gitignore
+      file2.txt
+   - Staging: 
+   - Repository:
+
+d. Chạy lệnh git add.
+   - Working Direction:
+      .gitignore
+      file2.txt
+   - Staging: 
+      .gitignore
+      file2.txt
+   - Repository:
+
+d. Chạy lệnh git commit -m "init project"
+   - Working Direction:
+      .gitignore
+      file2.txt
+   - Staging:
+   - Repository:
+     .gitignore
+      file2.txt

@@ -1,0 +1,6 @@
+git commit --amend: dùng để sửa đổi commit gần nhất. Khi chỉ chạy lệnh này thì phần Terminal sẽ hiện thì một bảng để có thể chỉnh sửa trực tiếp trên commit đó.
+git commit --amend -m"<message>": dùng để sửa message của commit
+git restore --staged <file>: dùng để đưa các file từ vùng Staging về vùng Working Direction
+git reset HEAD~1 : dùng để undo commit mới nhất. (đưa tất cả các file đã commit ở commit mới nhất từ ở vùng Repository về lại Working Direction)
+
+
