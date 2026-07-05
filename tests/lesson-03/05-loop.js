@@ -1,14 +1,19 @@
 const { randomInt } = require("node:crypto");
 
 //Bài 1
-let n = 100;
-let tong = n*(n+1)/2;
+let tong = 0
+for (let i = 1; i <= 100; i++){
+    tong += i;
+}
 console.log(`Tổng từ 1 đến 100 là: ${tong}`);
 
 //Bài 2
 for (let i = 2; i <= 9; i++){
-    let tich = i*2;
-    console.log(`2x${i}= ${tich}`)
+    console.log(`Bảng cửu chương ${i} là :`)
+    for ( let j = 2; j <= 9; j++) {
+        let tich = i*j;
+        console.log(`${i}x${j}=${tich}`);
+    }
 }
 
 //Bài 3
@@ -24,7 +29,7 @@ console.log(soLe);
 //Bài 4
 for (let i = 1; i <=10; i++){
     const user = ["hien", "ha", "nga", "nhi", "thao", "ngoc", "hung", "manh", "lanh", "nguyen"]
-    console.log(`${user[i-1]}${i}gmail.com`)
+    console.log(`${user[i-1]}${i}@gmail.com`)
 }
 
 //Bai 5

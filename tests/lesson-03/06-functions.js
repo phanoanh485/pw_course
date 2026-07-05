@@ -1,6 +1,6 @@
 //Bài 1
 function multiply(a, b){
-    tich = a*b;
+    let tich = a*b;
     console.log(`Tích ${a} và ${b} là: ${tich}`)
 }
 multiply(3,6);
